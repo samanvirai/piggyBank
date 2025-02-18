@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #f8f9fa;
+  position: fixed;
+  height: calc(100% - 64px); /* Adjust for header height */
+  top: 64px; /* Start directly below the header */
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  width: 100%;
+  z-index: 10; /* Ensure header is above nav */
+}
+
+main {
+  margin-top: 68px; /* Adjust based on header height */
+  margin-left: 16.7%; /* Ensure content starts after the navbar */
+  padding: 16px; /* Add padding for content */
+}
