@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'lora': ['Lora', ...defaultTheme.fontFamily.serif],
+        'fraunces': ['Fraunces', ...defaultTheme.fontFamily.serif],
         'roboto': ['Roboto', ...defaultTheme.fontFamily.sans],
       },
     },
